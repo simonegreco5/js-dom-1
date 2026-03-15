@@ -1,15 +1,18 @@
 console.log('js-dom');
 
-// selezioniamo il nodo dom (in questo caso il button)
+// selezioniamo il nodo dom <button> (con querySelector)
 const buttonScript = document.querySelector('button');
 
-// scriviamo la funzione usando il metodo Event Listeners
-buttonScript.addEventListener('click', function(){
+// selezioniamo il nodo dom <img> (con getElementById, sfruttando id del tag)
+const imgScript = document.getElementById('lamp')
 
-    // selezioniamo il noso dom (img) (con getElementById perché sfruttiamo l'id)
-    const imgScript = document.getElementById('lamp')
+// scriviamo la funzione usando il metodo Event Listeners
+// con questa funzione, quando clicchiamo il bottone
+// la lampada deve accendersi (cambiando src nell'img)
+buttonScript.addEventListener('click', function(){
 
     imgScript.src = './img/yellow_lamp.png'
     console.log('you clicked switch, now lamp is on')
 
 })
+
