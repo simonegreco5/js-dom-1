@@ -23,7 +23,7 @@ buttonScript.addEventListener('click', function(){
         imgScript.src = './img/white_lamp.png'
         console.log('you clicked switch, now lamp is off')
         buttonScript.innerHTML = 'ACCENDI'
-        // buttonScript.classList.add('')
+        buttonScript.classList.add('btn')
 
     } else { 
         // lampada accesa
@@ -33,7 +33,7 @@ buttonScript.addEventListener('click', function(){
         imgScript.src = './img/yellow_lamp.png'
         console.log('you clicked switch, now lamp is on')
         buttonScript.innerHTML = 'SPEGNI'
-        // buttonScript.classList.remove('')
+        buttonScript.classList.remove('btn')
 
     } 
    

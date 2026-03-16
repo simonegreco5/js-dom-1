@@ -1,0 +1,16 @@
+/* BUTTON STYLE */
+
+.btn-base {
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.btn {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(248, 231, 53);
+    color: rgb(80, 226, 249);
+}
